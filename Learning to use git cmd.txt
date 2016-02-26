@@ -1,0 +1,18 @@
+Learning to use the Git Shell / Command Line to operate Git functions
+
+all preceded by git
+
+cd : changes the working destination
+mkdir <folder_name> : creates a folder with <folder_name> on the working directory
+clone <git_URL> : clones a repository from <git_URL> to the current directory
+status : checks the status of the working directory
+add <file_name or -a> : adds the file <file_name> or all files to the staging area
+commit -m "<messge>" : commits the current changes to the branch with <message> as the message
+log : shows all commits and the messages associated with them, as well as the author of the commit
+branch : shows current branches
+checkout -b "<branch_name>" : creates a new branch with <branch_name> name
+checkout <branch_name> : switches to <branch_name> branch
+
+Shortcuts:
+commit-a -m "<message>" : adds AND commits the current changes to the branch with <message> as the message.
+push --set-upstream origin <branch_name> : pushes <branch_name> branch to the master branch repository on GitHub
