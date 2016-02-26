@@ -16,3 +16,8 @@ checkout <branch_name> : switches to <branch_name> branch
 Shortcuts:
 commit-a -m "<message>" : adds AND commits the current changes to the branch with <message> as the message.
 push --set-upstream origin <branch_name> : pushes <branch_name> branch to the master branch repository on GitHub
+
+After pushing a new branch to GitHub and completing a pull request:
+-Switch back to updated master branch
+pull : pulls current branch from master branch on GitHub
+branch --delete <branch_name> : deletes the branch
