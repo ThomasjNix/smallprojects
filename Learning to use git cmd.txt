@@ -15,3 +15,4 @@ checkout <branch_name> : switches to <branch_name> branch
 
 Shortcuts:
 commit-a -m "<message>" : adds AND commits the current changes to the branch with <message> as the message.
+push --set-upstream origin <branch_name> : pushes <branch_name> branch to the master branch repository on GitHub
