@@ -1,14 +1,7 @@
-Learning to use the Git Shell / Command Line to operate Git functions
+I cloned this repository from GitHub to practice use of Git Shell, git commands in a command line.
 
-all preceded by git
-
-cd : changes the working destination
-mkdir <folder_name> : creates a folder with <folder_name> on the working directory
-clone <git_URL> : clones a repository from <git_URL> to the current directory
-status : checks the status of the working directory
-add <file_name or -a> : adds the file <file_name> or all files to the staging area
-commit -m "<messge>" : commits the current changes to the branch with <message> as the message
-log : shows all commits and the messages associated with them, as well as the author of the commit
-
-Shortcuts:
-commit-a -m "<message>" : adds AND commits the current changes to the branch with <message> as the message.
+mkdir <folder_name>- creates a path at the current directory of <folder_name>
+clone <URL> - clones the repository at the folder
+status - checks status of current repository
+add <file_name> or add<*> - adds the currently modified file or all files to the staging area from the working directory
+commit -m "commit message" - Commits to the master branch with the message provided.
